@@ -1,45 +1,147 @@
 body {
-background-color: #F8F5EC;
-margin: 0;
-padding: 0;
-font-family: Arial, sans-serif;
+    background-image: url('imagem.png');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #F8F5EC;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 .cabecalho {
-background-color: #DDEBD3;
-padding: 15px 40px;
+    background-color: #DDEBD3;
+    padding: 15px 40px;
 }
+
 .menu-navegacao {
-display: flex;
-justify-content: space-between;
-align-items: center; 
-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
 }
 
 .titulo-p {
-color: #2E7D32;
-margin: 0;
-font-size: 24px;
+    color: #2E7D32;
+    margin: 0;
+    font-size: 24px;
 }
 
 .ajustando {
-display: flex;
-list-style: none;
-gap: 40px;
-margin: 0;
-padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
 }
+
 .ajustando li a {
-text-decoration: none;
-color: #2E7D32;
-font-weight: bold;
+    text-decoration: none;
+    color: #2E7D32;
+    font-weight: bold;
 }
+
 .logo {
- display: flex;
- align-items: center;
- gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
 .imagem-logo {
- width: 72px;
- height: auto;
+    width: 72px;
+    height: auto;
+}
+
+.img {
+    width: 800px;
+    float: right;
+}
+
+.int {
+    margin-top: 45px; 
+    margin-left: 40px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    max-width: 550px;
+    color: #1F4D35;
+}
+
+.subtitle {
+    color: #6FA35B;
+    font-weight: normal;
+}
+
+.container-botoes {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 40px;
+}
+
+.botao-verde {
+    background-color: #1b4332;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.botao-verde:hover {
+    background-color: #2d6a4f;
+}
+
+.botao-texto {
+    background-color: transparent;
+    color: #1b4332;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-principal {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.container-informations {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #DDEBD3;
+    padding: 40px 20px;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.recurso-icone {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+.recurso-item {
+    text-align: center;
+    max-width: 180px;
+}
+
+.recurso-item h3 {
+    font-size: 15px;
+    color: #1a3017;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+}
+
+.recurso-item p {
+    font-size: 12px;
+    color: #4a5c46;
+    margin: 0;
+    line-height: 1.4;
 }
