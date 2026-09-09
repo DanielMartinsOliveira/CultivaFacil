@@ -1,0 +1,45 @@
+body {
+background-color: #F8F5EC;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+background-color: #DDEBD3;
+padding: 15px 40px;
+}
+.menu-navegacao {
+display: flex;
+justify-content: space-between;
+align-items: center; 
+width: 100%;
+}
+
+.titulo-p {
+color: #2E7D32;
+margin: 0;
+font-size: 24px;
+}
+
+.ajustando {
+display: flex;
+list-style: none;
+gap: 40px;
+margin: 0;
+padding: 0;
+}
+.ajustando li a {
+text-decoration: none;
+color: #2E7D32;
+font-weight: bold;
+}
+.logo {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.imagem-logo {
+ width: 72px;
+ height: auto;
+}
